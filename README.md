@@ -29,32 +29,34 @@ Here’s a visual representation of the sentiment analysis results:
     * Kamala Harris has a positive average sentiment score, suggesting a generally favorable or supportive tone in the Reddit posts related to her.
     * In contrast, Donald Trump shows a negative average sentiment score, indicating a predominantly unfavorable or critical tone in posts mentioning him.
   
-    ![Sentiment Analysis Result](images/avg_sentiment.png)
+   <img src="Image/avg_sentiment.png" alt="Sentiment Analysis Result" width="500" height="400"/>
 
-2. Sentiment Counts by Candidate:
+
+3. Sentiment Counts by Candidate:
     * Both candidates have a higher proportion of negative posts, but Trump has a significantly larger number of negative posts than positive ones.
     * Kamala Harris has a relatively more balanced distribution, with a greater share of positive posts compared to Trump.
     * This distribution implies that while both candidates face criticism, Trump receives a noticeably higher level of negative sentiment.
   
-    ![Sentiment Count](images/count.png)
+   <img src="Image/count.png" alt="Sentiment Count" width="500" height="400"/>
 
-3. Density Plot of Exponential Sentiment by Candidate:
+5. Density Plot of Exponential Sentiment by Candidate:
     * Kamala’s curve skews slightly toward the positive side, while Trump’s curve is more shifted toward the negative.
     * The overlap in the center suggests that there is some mixed sentiment for both candidates; however, the peaks indicate that Kamala tends to receive more positive posts, while Trump generally receives more negative posts.
 
-    ![Sentiment Count](images/Density_plot.png)
+   <img src="Image/Density_plot.png" alt="Density Plot" width="500" height="400"/>
+   
 
-4. Sentiment Distribution for Kamala Harris (Pie Chart):
+7. Sentiment Distribution for Kamala Harris (Pie Chart):
     * Approximately 68.4% of the posts about her are negative, while 31.6% are positive.
     * Although she has more negative posts, the relatively high percentage of positive posts (compared to Trump) suggests a more balanced sentiment landscape for her.
   
-    ![Piechart - Kamala Harris](images/piechart_kamala.png)
+   <img src="Image/piechart_kamala.png" alt="Piechart - Kamala Harris" width="500" height="400"/>
 
-5. Sentiment Distribution for Donald Trump (Pie Chart):
+9. Sentiment Distribution for Donald Trump (Pie Chart):
     * About 87.5% of the posts about Trump are negative, with only 12.5% being positive.
     * This distribution indicates a highly critical sentiment toward Trump, with a very small proportion of supportive or favorable posts.
   
-    ![Piechart - Trump](images/piechart_trump.png)
+   <img src="Image/piechart_trump.png" alt="Piechart - Trump" width="500" height="400"/>
 
 ## Future Improvements
 * Incorporate Additional Social Media Platforms
